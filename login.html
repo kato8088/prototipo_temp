@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Protótipo</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/logins.css">
+</head>
+<body>
+    <header>
+        <a href="./index.html" id="no-link-decoration"><div class="logoSmall" id="logo">Logo aqui</div></a>
+        <a href="./index.html"><button>Voltar</button></a>
+    </header>
+
+    <div class="loginFrame">
+        Login:
+        <form id="loginForm">
+            <p>
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" name="username" id="username" maxlength="25">
+            </p>
+            <p>
+                <label for="password">Senha:</label>
+                <input type="password" name="password" id="password" maxlength="25">
+            </p>
+            <button onclick="checkLogin()">login</button>
+            <!-- <input onclick="checkLogin()" type="submit"> -->
+            <!-- <button onclick="submitLogin()" type="submit" id="submitLogin">Logar</button> -->
+        </form>
+    </div>
+
+    <button onclick="logVars_debug()">console log vars (debug)</button>
+
+
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/login_register_prototype.js"></script>
+</body>
+</html>

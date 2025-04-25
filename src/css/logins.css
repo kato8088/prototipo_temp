@@ -1,0 +1,10 @@
+.loginFrame {
+    display: flex;
+    margin: auto;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color: azure;
+}
